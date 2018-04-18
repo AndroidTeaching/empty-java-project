@@ -10,7 +10,7 @@ public class OddGame {
         // Read the input value
         Scanner keyboard = new Scanner(System.in);
         int valor = keyboard.nextInt();
-        System.out.println(10*5 + 100/10 - 5 + 7%2);
+
         // Determine if value is odd or even
         if (valor % 2 == 0) {
             System.out.println(valor + " es par.");
