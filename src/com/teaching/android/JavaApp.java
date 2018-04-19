@@ -8,15 +8,62 @@ import com.teaching.android.persona.Persona;
 public class JavaApp {
 
     public static void main(String[] args) {
-        Persona p1 = new Persona("Paco", 200f);
-        Persona p2 = new Persona("Juan", 33f);
-        p1.pagar(p2, 10);
+        Punto p1 = new Punto(2, 4);
+        Punto p2 = new Punto(3, 5);
+        double distancia = p1.distancia(3, 5);
+        System.out.println(distancia);
+        double distancia2 = p1.distancia(p2);
+        System.out.println(distancia2);
 
-        System.out.println(p1.getNombre() + " tiene " + p1.getDinero() + "€");
-        System.out.println(p2.getNombre() + " tiene " + p2.getDinero() + "€");
-        p1.setDinero(0);
-        System.out.println(p1.getNombre() + " tiene " + p1.getDinero() + "€");
+        System.out.println(p1);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
